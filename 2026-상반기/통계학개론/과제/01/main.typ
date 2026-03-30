@@ -44,8 +44,8 @@
       #grid(
         columns: (1fr, 1fr),
         gutter: 5pt,
-        image("plot1.png"),
-        image("plot2.png"),
+        image("problem1/plot1.png"),
+        image("problem1/plot2.png"),
       )
     ]
   ]
