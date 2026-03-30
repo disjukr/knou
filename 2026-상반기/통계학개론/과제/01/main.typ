@@ -34,7 +34,7 @@
   평균: 84.5, 중앙 85, 최소: 68, 최대: 98 입니다.\
   85점 근처에 값이 몰려있고, 중앙값이 어느 한쪽에 쏠려있지 않은 것 같습니다.\
   이상치는 보이지 않습니다.
-  #image("screenshot.png")
+  #image("problem1/screenshot.png")
   #rect(
     width: 100%,
     height: 9cm,
