@@ -8,6 +8,12 @@
   lang: "ko",
 )
 
+#show math.equation.where(block: true): set align(left)
+#show math.equation.where(block: true): it => block(
+  inset: (left: 2cm),
+  it
+)
+
 #let item(title, body) = [
   #text(size: 14pt, weight: "bold")[#title]
   #table(
@@ -62,7 +68,25 @@
 ])
 
 #item("문제 3. [6강. 확률분포]", [
-  //
+  
+  풀이 1.
+  $
+    P(X>=550) \
+    = 1 - P(X<550) \
+    = 1 - "pnorm"(550, "mean"=500, "sd"=30) \
+    = 0.0478
+  $
+
+  풀이 2. $
+    P(X>=550) \
+    = P((X-500)/30 >= (550-500)/30) \
+    = P(Z>=1.6667) \
+    = 1 - P(Z<1.6667) \
+    = 1 - 0.9522 \
+    = 0.0478
+  $
+
+  #image("problem3/screenshot.png")
 ])
 
 #item("문제 4. [7강. 표준분포]", [
