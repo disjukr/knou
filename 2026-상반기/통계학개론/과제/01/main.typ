@@ -15,7 +15,7 @@
     stroke: 0.6pt + gray,
     inset: (top: 14pt, bottom: 14pt, left: 8pt, right: 8pt),
   )[#body]
-  #v(12pt)
+  #pagebreak()
 ]
 
 #align(center)[
@@ -37,7 +37,7 @@
   #image("problem1/screenshot.png")
   #rect(
     width: 100%,
-    height: 9cm,
+    height: 8.5cm,
     stroke: none
   )[
     #align(center)[
@@ -50,12 +50,21 @@
     ]
   ]
 ])
+
 #item("문제 2. [3강.  데이터  수치요약]", [
-  // TODO
+  값들이 오른쪽으로 약간 쏠려있고,
+  550-600 ppm 구간 근처에 몰려있는걸 확인할 수 있습니다.\
+  이상치는 보이지 않습니다.
+  #image("problem2/screenshot.png")
+  #align(center)[
+    #image("problem2/plot.png", height: 10cm)
+  ]
 ])
+
 #item("문제 3. [6강. 확률분포]", [
-  // TODO
+  //
 ])
+
 #item("문제 4. [7강. 표준분포]", [
-  // TODO
+  //
 ])
